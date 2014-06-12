@@ -12,7 +12,7 @@ A set of observations of 66 features, each one of a pair individual+activity
 * SUBJECT_ID. An integer that identifies one of the subjects of the experiment
 (range 1:30)
 <P>
-66 values correspoding to 6 measures of triaxial means and standard deviations. Each of these variables is a real number between -1.0000 and 1.0000
+66 values correspoding to 6 measures of triaxial means and standard deviations. Each of these variables is a real number between -1.0000 and 1.0000 . The detailed explanation of the physical meaning of these signals is described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * tBodyAcc-mean()-X 
 * tBodyAcc-mean()-Y 
 * tBodyAcc-mean()-Z	
