@@ -7,12 +7,13 @@ The script produces two files.
 
 ## clean_raw_data_set.csv
 
-A set of observations of 66 features, each one of a pair individual+activity
+A set of observations of 66 features, each one of a pair activity+subject. There may be several rows per each activity+subject combination
+
 * ACTIVITY_LABEL. String with one of six possible labels:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 * SUBJECT_ID. An integer that identifies one of the subjects of the experiment
 (range 1:30)
 <P>
-66 values correspoding to 6 measures of triaxial means and standard deviations. Each of these variables is a real number between -1.0000 and 1.0000 . The detailed explanation of the physical meaning of these signals is described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+66 values correspoding to 6 measures of triaxial means and standard deviations. Each of these samples is a real number between -1.0000 and 1.0000 . The detailed explanation of the physical meaning of these signals is described at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * tBodyAcc-mean()-X 
 * tBodyAcc-mean()-Y 
 * tBodyAcc-mean()-Z	
@@ -78,3 +79,12 @@ A set of observations of 66 features, each one of a pair individual+activity
 * fBodyBodyGyroMag-mean()
 * fBodyBodyGyroJerkMag-mean()	
 * FbodyBodyGyroJerkMag-std()
+
+## clean_raw_data_set.csv
+
+This is the final tidy data set. Per each unique combination activity+subject the file contains a row with the averages of the 66 features. 
+* ACTIVITY_LABEL. String with one of six possible labels:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* SUBJECT_ID. An integer that identifies one of the subjects of the experiment
+(range 1:30)
+<P>
+66 columns with the features in the same order as explained for clean_raw_data_set.csv . A prefix is added to the name of this magnitudes, for instance, AGV_fBodyGyro-std()-X. Each of these vairables is a real number between -1.0000 and 1.0000
