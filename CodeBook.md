@@ -11,8 +11,8 @@ A set of observations of 66 features, each one of a pair individual+activity
 * ACTIVITY_LABEL. String with one of six possible labels:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 * SUBJECT_ID. An integer that identifies one of the subjects of the experiment
 (range 1:30)
-
-* tBodyAcc-mean()-X
+66 values correspoding to 6 measures of triaxial means and standard deviations. Each of these variables is a real number between -1.0000 and 1.0000
+* tBodyAcc-mean()-X 
 * tBodyAcc-mean()-Y 
 * tBodyAcc-mean()-Z	
 * tBodyAcc-std()-X 
