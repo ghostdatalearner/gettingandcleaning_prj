@@ -3,7 +3,7 @@ gettingandcleaning_prj
 
 This repo contains the script and results of the Coursera Getting and Cleaning Data project. The
 raw data were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-You can clone it in your computer, the uncompressed required files are part the repo
+You can clone it in your computer, the uncompressed required files are part of the repo.
 
 
 ## Description
