@@ -20,13 +20,14 @@ The tidy final set contains just one row per activity and individual, with the a
 all the combinations activity+subject found in the original sets.
 
 ## Directory structure.
-
-gettingandcleaning_prj        (Contains the Read_and_clean_data.R script, this README, 
+```
+python gettingandcleaning_prj        (Contains the Read_and_clean_data.R script, this README,
       |                       the codebook and the output files)
       |
      UCI HAR Dataset   (Created unzipping the original data file from the root directory)
                 |
                 +-  test  (Contains the test data files)
                 |
-                +-  train (Contains the train data sets)
+                +-  train (Contains the train data set)
+```
 
