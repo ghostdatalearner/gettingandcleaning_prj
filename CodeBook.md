@@ -80,7 +80,7 @@ A set of observations of 66 features, each one of a pair activity+subject. There
 * fBodyBodyGyroJerkMag-mean()	
 * FbodyBodyGyroJerkMag-std()
 
-## clean_raw_data_set.csv
+## clean_data_set.csv
 
 This is the final tidy data set. Per each unique combination activity+subject the file contains a row with the averages of the 66 features. 
 * ACTIVITY_LABEL. String with one of six possible labels:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
